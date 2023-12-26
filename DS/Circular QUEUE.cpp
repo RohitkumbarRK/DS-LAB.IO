@@ -5,7 +5,7 @@
 int CQ[SIZE];
 int front = -1;
 int rear = -1, ch;
-
+//define variable which shows the where to insert and delete the element
 int ISCQ_full();
 int ISCQ_empty();
 void CQ_insert(int);
