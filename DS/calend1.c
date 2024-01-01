@@ -6,6 +6,7 @@ char name[20];
 int date;
 char activity[100];
 };
+//create the mainn function which take the details among the week 
 int main() {
 // Declare an array of 7 elements to represent the calendar
 struct Day calendar[7];
