@@ -75,7 +75,7 @@ NODE delete_front(NODE first)
 	}
 	temp=first;
 	temp=temp->link;
-	printf("delete student record:USN=%d\n",first->usn);
+	printf("delete students record:USN=%d\n",first->usn);
 	free(first);
 	return temp;
 }
@@ -84,7 +84,7 @@ NODE delete_rear(NODE first)
 	NODE cur,prev;
 	if(first==NULL)
 	{
-		printf("student list is empty cannot delete\n");
+		printf("student list is empty cannot be delete\n");
 		return first;
 	}
 	if(first->link==NULL)
