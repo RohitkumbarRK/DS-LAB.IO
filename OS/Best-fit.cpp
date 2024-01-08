@@ -6,11 +6,11 @@ void main()
 int frag[max],b[max],f[max],i,j,nb,nf,temp,lowest=10000; 
 static int bf[max],ff[max];
 clrscr();
-printf("\nEnter the number of blocks:"); 
+printf("\n Enter the number of blocks:"); 
 scanf("%d",&nb);
-printf("Enter the number of files:"); 
+printf("Enter the number of files:-"); 
 scanf("%d",&nf);
-printf("\nEnter the size of the blocks:-\n"); 
+printf("\nEnter the size of the blocks:--\n"); 
 for(i=1;i<=nb;i++)
 printf("Block %d:",i);
 scanf("%d",&b[i]);
