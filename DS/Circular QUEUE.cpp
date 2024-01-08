@@ -17,7 +17,7 @@ int main() {
 
     while (1) {
         int ele;
-        printf("enter your choice\n");
+        printf("enter your choice :\n");
         scanf("%d", &ch);
 
         switch (ch) {
@@ -25,7 +25,7 @@ int main() {
                 if (ISCQ_full())
                     printf("circular queue overflow\n");
                 else {
-                    printf("enter the element to be inserted\n");
+                    printf("enter the element to be insertedin queue\n");
                     scanf("%d", &ele);
                     CQ_insert(ele);
                 }
