@@ -7,7 +7,7 @@ printf("Enter the number of processes --- ");
 scanf("%d",&n);
 for(i=0;i<n;i++){
 p[i] = i;
-printf("Enter the Burst Time & Priority of Process %d --- ",i); scanf("%d%d",&bt[i], &pri[i]);
+printf("Enter the Burst Time and Priority of Process is: %d --- ",i); scanf("%d%d",&bt[i], &pri[i]);
 }
 for(i=0;i<n;i++) 
 for(k=i+1;k<n;k++) 
