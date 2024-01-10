@@ -4,7 +4,7 @@ main()
 int i,j,n,bu[10],wa[10],tat[10],t,ct[10],max; 
 float awt=0,att=0,temp=0;
 
-printf("Enter the no of processes -- "); 
+printf("Enter the number of processes -- "); 
 scanf("%d",&n);
 for(i=0;i<n;i++)
 {
