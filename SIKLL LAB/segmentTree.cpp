@@ -17,7 +17,7 @@ int nextPowerOf2(int n) {
     return (1 << count);
 }
 
-// Function to construct the segment tree
+// Function to construct the segament of tree
 void constructSegmentTree(int arr[], int segmentTree[], int low, int high, int pos) {
     if (low == high) {
         segmentTree[pos] = arr[low];
