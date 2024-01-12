@@ -21,7 +21,7 @@ int max(int a, int b) {
     return (a > b) ? a : b;
 }
 
-// Function to create a new node with given key
+
 struct Node *newNode(int key) {
     struct Node *node = (struct Node *)malloc(sizeof(struct Node));
     node->key = key;
