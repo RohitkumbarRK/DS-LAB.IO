@@ -18,7 +18,7 @@ int main() {
             exit(EXIT_FAILURE);
         }
 
-        // Write data to the FIFO
+        // Write data to the FIFO(first in first out)
         char message[] = "Hello from the writer process!";
         write(fd, message, sizeof(message));
 
