@@ -27,3 +27,6 @@ printf("\nAverage Waiting Time -- %f", wtavg/n);
 printf("\nAverage Turnaround Time -- %f", tatavg/n); 
 
 }
+
+
+
