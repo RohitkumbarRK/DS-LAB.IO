@@ -11,7 +11,7 @@ int ISCQ_empty();
 void CQ_insert(int);
 void CQ_delete();
 void CQ_display();
-
+//create the main function which can excute the following insertion and deletion
 int main() {
     printf("1.insert\n2.delete\n3.display\n4.exit\n");
 
