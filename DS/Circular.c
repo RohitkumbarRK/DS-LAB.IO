@@ -105,7 +105,8 @@ int main ()
   enqueue (40);
   enqueue (45);
   enqueue (50);
-  enqueue (55);			//Overflow condition
+  enqueue (55);
+  //overflow queue
   print ();
 
   return 0;
