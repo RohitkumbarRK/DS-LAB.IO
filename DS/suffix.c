@@ -14,7 +14,7 @@ float operate(float,float,char);
 int main()
 {
 int i=0;
-printf("Enter Expression for postfix convertion:");
+printf("Enter Expression for postfix covert:");
 scanf("%s",postfix);
 float ans,op1,op2;
 while(postfix[i]!='\0')
