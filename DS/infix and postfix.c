@@ -1,9 +1,10 @@
-#define SIZE 50 /* Size of Stack */
+i#define SIZE 50 /* Size of Stack */
 #include <ctype.h>
 #include <stdio.h>
 char s[SIZE];
-int top = -1; /* Global declarations */
-push(char elem) /* Function for PUSH operation */
+int top = -1; 
+/* Global declarations */
+push(char elem) /* Function is for PUSH operation */
 {
 s[++top] = elem;
 }
