@@ -70,7 +70,7 @@ int dequeue ()
 // Display the queue
 void print ()
 {
-  int i;
+  int i,temp,first;
   if (checkEmpty ())
     printf ("Nothing to dequeue\n");
   else
