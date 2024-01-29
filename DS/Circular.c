@@ -75,7 +75,7 @@ void print ()
     printf ("Nothing to dequeue\n");
   else
     {
-      printf ("\nThe queue looks like dasing : \n");
+      printf ("\nThe queue looks like: \n");
       for (i = front; i != rear; i = (i + 1) % capacity)
 	{
 	  printf ("%d ", queue[i]);
