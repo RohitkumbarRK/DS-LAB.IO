@@ -89,7 +89,7 @@ NODE delete_rear(NODE first)
 	NODE cur,prev;
 	if(first==NULL)
 	{
-		printf("student list is empty cannot be delete\n");
+		printf("student list is empty cannot be deleteed\n");
 		return first;
 	}
 	if(first->link==NULL)
