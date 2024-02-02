@@ -8,7 +8,7 @@ push(char elem) /* Function is for PUSH operation */
 {
 s[++top] = elem;
 }
-char pop() 
+char pop() /* function is for pop opration*/ 
 {
 return (s[top--]);
 }
