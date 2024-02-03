@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+//define thee structure for student details
 typedef struct
 {
 	int usn;
