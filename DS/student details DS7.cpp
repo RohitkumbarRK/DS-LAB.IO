@@ -10,6 +10,7 @@ typedef struct
 	int semster;
 	char phone[30];
 }STUDENT;
+//create the node which stores the details of each one of student
 struct node
 {
 	int usn;
