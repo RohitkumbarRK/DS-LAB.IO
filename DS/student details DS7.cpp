@@ -32,6 +32,7 @@ NODE getnode()
 	}
 	return x;
 }
+//create the insert function which enters the student details
 NODE insert_front(STUDENT item,NODE first)
 {
 	NODE temp;
