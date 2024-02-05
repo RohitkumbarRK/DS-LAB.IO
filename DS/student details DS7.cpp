@@ -48,6 +48,7 @@ NODE insert_front(STUDENT item,NODE first)
 	temp->link=first;
 	return temp;
 }
+//create the rear insertion function 
 NODE insert_rear(STUDENT item,NODE first)
 {
 	NODE temp,cur;
