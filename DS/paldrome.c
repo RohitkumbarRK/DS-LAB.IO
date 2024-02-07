@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 #define max_size 5
+//defining th evariables 
 int stack[max_size],top=-1,flag=1;
 int i,temp,item,rev[max_size],num[max_size];
 void push();
@@ -11,7 +12,7 @@ void pali();
 int main()
 {
 int choice;
-printf("\n\n--------STACK OPERATIONS ------ \n");
+printf("\n\n----STACK OPERATIONS -- \n");
 printf("1.Push\n");
 printf("2.Pop\n"); printf("3.Palindrome\n"); printf("4.Display\n"); printf("5.Exit\n");
 printf(" ");
