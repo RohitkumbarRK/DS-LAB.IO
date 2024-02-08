@@ -69,6 +69,7 @@ NODE insert_rear(STUDENT item,NODE first)
 	cur->link=temp;
 	return first;
 }
+//create the delete function from front
 NODE delete_front(NODE first)
 {
 	NODE temp;
