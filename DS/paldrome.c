@@ -35,7 +35,7 @@ case 5: exit(0); break;
 default: printf("\nInvalid choice:\n"); break;
 }
 }
-//return 0;
+return 0;
 }
 void push() //Inserting element into the stack
 {
