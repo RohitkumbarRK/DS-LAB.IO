@@ -20,6 +20,7 @@ while(1)
 {
 printf("\nEnter your choice:\t");
 scanf("%d",&choice);
+//we are using the switch statement for fetching multiple caseses at a time
 switch(choice)
 {
 case 1: push();break;
