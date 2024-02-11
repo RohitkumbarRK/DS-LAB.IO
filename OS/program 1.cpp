@@ -1,3 +1,4 @@
+//this program is for calculating the avaerage wating time 
 #include<stdio.h>
 #include<conio.h>
 main()
