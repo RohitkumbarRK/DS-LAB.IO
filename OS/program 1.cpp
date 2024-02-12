@@ -1,4 +1,4 @@
-//this program is for calculating the avaerage wating time 
+//this program is for calculating the avaerage wating time and average turnaround time 
 #include<stdio.h>
 #include<conio.h>
 main()
