@@ -1,11 +1,9 @@
 #include<stdio.h> 
-#include<conio.h> 
 #define max 25
 void main()
 {
 int frag[max],b[max],f[max],i,j,nb,nf,temp,lowest=10000; 
 static int bf[max],ff[max];
-clrscr();
 printf("\n Enter the number of blocks:"); 
 scanf("%d",&nb);
 printf("Enter the number of files:-"); 
