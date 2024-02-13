@@ -3,9 +3,8 @@
 #define max 25
 int main()
 {
-int 
+int i
 frag[max],b[max],f[max],i,j,nb,nf,temp; static int bf[max],ff[max];
-clrscr();
 printf("\n\tMemory M. Scheme - First Fit"); 
 printf("\nEnter the number of blocks:"); 
 scanf("%d",&nb);
@@ -64,6 +63,5 @@ bf[ff[i]]=1;
 printf("\nFile_no:\tFile_size :\tBlock_no:\tBlock_size:\tFragement"); 
 for(i=1;i<=nf;i++)
 printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,f[i],ff[i],b[ff[i]],frag[i]);
-getch();
 }
 }
